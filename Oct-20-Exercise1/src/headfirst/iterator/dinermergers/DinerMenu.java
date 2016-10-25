@@ -25,6 +25,10 @@ public class DinerMenu {
   public MenuItem[] getMenuItems() {
     return menuItems;
   }
+  
+  public int getMenuSize() {
+	  return numberOfItems;
+  }
 
   // other menu methods here
 }
